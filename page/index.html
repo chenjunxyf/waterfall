@@ -1,0 +1,21 @@
+{% extends 'page/common/base.html' %}
+
+{% block title %}{{title}}{% endblock %} 
+
+{% block link %}
+<link rel="stylesheet" href="/static/style/index.less">
+{% endblock %} 
+
+{% block content %}
+
+<div class="tt-waterfall"></div>
+
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/lib/jquery.js"></script>
+<script src="/static/js/lib/underscore.js"></script>
+<script src="/static/js/lib/waterfall.js"></script>
+<script src="/static/js/index.js"></script>
+{% endblock %}
+
