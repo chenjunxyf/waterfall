@@ -1,8 +1,8 @@
-# bui脚手架
+# 图片等高不等宽瀑布流
 
-## 作用
+## 功能
 
-前端开发目录规范
+* 实现等高图片的瀑布流
 
 ## 目录说明
 
@@ -16,3 +16,7 @@
 - fis-conf.js ------------- fis3b配置文件
 - fis-remote-conf.js ------ fis3b开发机配置
 ```
+
+## 使用说明
+
+* 安装[fat-byte](https://github.com/chenjunxyf/fat)
